@@ -204,6 +204,11 @@ var app = new Vue({
                                 <p><strong>Joystick Calibration</strong> - After button calibration completes, move joystick to all four directions and center position as prompted. This ensures accurate joystick direction detection.</p>
                                 <p><strong>Clear All Settings</strong> - While the device is running, hold Function 1 + Function 3 for 5 seconds. The display will show "Hold to clear settings" and then "Settings cleared" when complete. This resets all settings to factory defaults, including presets and calibration data.</p>
                             </div>
+                            
+                            <h4>Feedback & Support:</h4>
+                            <div class="calibration-section">
+                                <p><strong>Found Any Bugs? Have a feature request?</strong> - <a href="https://hichord.shop/pages/manual" target="_blank">Provide Firmware Feedback here</a></p>
+                            </div>
                         </div>
                     </b-collapse>
                 </div>
