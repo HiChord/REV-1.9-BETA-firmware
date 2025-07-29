@@ -167,14 +167,14 @@ var app = new Vue({
         <b-row align="center" class="app_column">
             <div>
                 <legend>HiChord Web Programmer</legend>
-                <p> Update your HiChord to REV 1.8 (JUNE 2025) </p>
-                <p> NEW:DRUM LOOP MODE, DRONE MODE, MINOR SCALE, TAP TEMPO, CRASH DETECTION, SMART SLEEP + BATTERY IMPROVEMENT, BUTTON DETECTION OVERHAUL, BUG FIXES </p>
+                <p> Update your HiChord to REV 1.9 BETA </p>
+                <p> NEW: FM SYNTHESIS, PRESET SAVE SYSTEM, EAR TRAINING MODE, DUAL-TRACK LOOPER, HIGH QUALITY SAMPLE PLAYBACK, REAL-TIME FILTER/ATTACK/RELEASE CONTROL, SEQUENCER ENHANCEMENTS, AND MORE! </p>
                 <br>
                 <div>
                     <b-button variant="es" v-b-toggle.collapseFeatures>⏺ View New Features & Instructions</b-button>
                     <b-collapse id="collapseFeatures" class="mt-2">
                         <div class="feature-box">
-                            <h3>⏺ New Features Since Rev 1.8:</h3>
+                            <h3>⏺ New Features in Rev 1.9 BETA:</h3>
                             <p class="feature-summary">FM Synthesis, Preset Save System, Ear Training Mode, Dual-Track Looper, High Quality Sample Playback, Real-time Filter/Attack/Release Control, Sequencer Enhancements, Quick Sound/Mode Selection, Slash Chords, Musical Randomizer, Rhythm Rate Switching, Chord Type Lock, Tap Tempo, and Improved Metronome.</p>
                             
                             <h4>Feature List with Instructions:</h4>
@@ -262,7 +262,7 @@ For Windows users having issues with updating, you may need to update your USB d
             <b-col align="center" class="app_column">
                 <b-container>
                     <b-row class="p-2">
-                        <legend>Update to HiChord REV1.8</legend>
+                        <legend>Update to HiChord REV 1.9 BETA</legend>
                         <div><b-button variant="es" id="blink"  :disabled="no_device">Update HiChord!</b-button></div>
                     </b-row>
                     <hr>
