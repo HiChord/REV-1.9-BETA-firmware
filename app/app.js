@@ -454,7 +454,7 @@ For Windows users having issues with updating, you may need to update your USB d
     // We no longer need blink_example.source.repo_url or blink_example.filepath here.
     // Just read from the local data folder.
     var root = getRootUrl().split("?")[0];
-    var localBlinkPath = root + "data/firmware Rev 1.8 June 9 2025 - 2 update.bin";
+    var localBlinkPath = root + "data/REV 1.9 Beta (1 fix).bin";
     
     readServerFirmwareFile(localBlinkPath, false).then(buffer => {
         blinkFirmwareFile = buffer
